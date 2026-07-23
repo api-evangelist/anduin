@@ -1,0 +1,24 @@
+# Anduin
+
+> Anduin (Anduin Transactions) digitizes investor onboarding and fund operations for private markets — venture capital, private equity, and hedge funds. Its platform replaces paper-based subscription workflows with electronic fund subscription documents, secure data rooms, investor data management, e-signature, and an integration hub. As of this profile the company reports 1,305+ funds served, $244B+ capital raised, and 74,000+ investors subscribed. No public developer API or OpenAPI is published; this file indexes the public company, trust, and security surfaces.
+
+## Company
+- [Anduin Transactions](https://anduintransact.com): Company homepage and product overview.
+- [Blog](https://anduintransact.com/blog): Company blog.
+- [Careers](https://anduintransact.com/careers): Careers page.
+- [Book a demo](https://anduintransact.com/book-a-demo): Sales / demo request.
+
+## Products (login)
+- [Fund Subscription](https://fundsub.anduin.app/): Electronic subscription document application.
+- [Data Room](https://dataroom.anduin.app/): Secure data room application.
+- [E-Sign](https://sign.anduin.app/): Electronic signature application.
+
+## Trust & Security
+- [Trust Center](https://anduintransact.com/anduin-trust-center): Security and compliance overview (SOC 2, ISO 27001, GDPR, eIDAS, ESIGN/UETA).
+- [Trust Report Portal](https://trust.anduin.report/): Live trust and compliance report portal.
+- [security.txt](https://anduintransact.com/.well-known/security.txt): RFC 9116 security contact (security@anduintransact.com).
+- [Privacy Policy](https://anduintransact.com/privacy-policy): Privacy policy.
+- [Terms of Service](https://anduintransact.com/terms-of-service): Terms of service.
+
+## Code
+- [GitHub — anduintransaction](https://github.com/anduintransaction): Public GitHub organization (open-source tooling; not an API SDK surface).

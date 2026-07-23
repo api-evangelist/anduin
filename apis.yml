@@ -1,7 +1,17 @@
 aid: anduin
 name: Anduin
-description: Anduin is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Anduin (Anduin Transactions) is a private-markets technology company that
+  digitizes investor onboarding and fund operations for venture capital,
+  private equity, and hedge funds. Its platform replaces paper-based
+  subscription workflows with electronic fund subscription documents, secure
+  data rooms, investor data management, an engagement hub, an integration hub,
+  automated data extraction, and e-signature. The company reports 1,305+ funds
+  served, $244B+ capital raised, and 74,000+ investors subscribed. Anduin
+  publishes no public developer API or OpenAPI; this profile captures its
+  public company, trust, and security surfaces (Trust Center, RFC 9116
+  security.txt, and domain-security posture). Backed by 8vc; surfaced to the
+  API Evangelist network as a portfolio lead and enriched by the pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/anduin/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,31 @@ x-backed-by:
 - 8vc
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://anduintransact.com/favicon.ico
 tags:
 - Company
+- Private Markets
+- Fund Administration
+- Investor Onboarding
+- Fund Subscription
+- Venture Capital
+- Private Equity
+- E-Signature
+- FinTech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,34 @@ maintainers:
 common:
 - type: Website
   url: https://anduintransact.com
+- type: Blog
+  url: https://anduintransact.com/blog
+- type: Login
+  url: https://fundsub.anduin.app/
+- type: GitHubOrganization
+  url: https://github.com/anduintransaction
+- type: TermsOfService
+  url: https://anduintransact.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://anduintransact.com/privacy-policy
+- type: TrustCenter
+  url: security/anduin-trust-center.yml
+- type: Compliance
+  url: https://anduintransact.com/anduin-trust-center
+- type: Security
+  url: https://anduintransact.com/.well-known/security.txt
+- type: VulnerabilityDisclosure
+  url: security/anduin-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/anduin-domain-security.yml
+- type: SecurityTxt
+  url: well-known/anduin-security.txt
+- type: WellKnown
+  url: well-known/anduin-well-known.yml
+- type: LLMsTxt
+  url: llms/anduin-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
